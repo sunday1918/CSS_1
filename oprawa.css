@@ -3,3 +3,13 @@ body {
 	font-size: 14pt;
 	
 }
+
+p em{
+	font-size:1.5em;
+	color:red;
+	font-weight:800;
+}
+
+.thight{
+	line-height:50%;
+}
