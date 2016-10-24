@@ -4,14 +4,44 @@ body {
 	
 }
 
-p em{
+header {
+	font-family
+	
+}
+
+p > em{
 	font-size:1.5em;
 	color:red;
 	font-weight:800;
 }
 
+
+
+p:first-child{
+	background-color:yellow;
+	
+}
+
+p:last-child{
+	background-color:salmon;
+	
+}
+
+p:nth-child(3){
+	background-color:pink;
+	
+}
+
+#akapity{
+	position:relative;
+	text-align:center;
+	width:50%;
+	left:25%;
+	overflow:scroll;
+}
+
 .thight{
-	line-height:50%;
+	line-height:75%;
 }
 
 .smallcaps{
